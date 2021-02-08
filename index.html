@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chat-app</title>
+</head>
+<body>
+<div>
+    <div id="info"></div>
+    <div id="chatWindow"></div>
+    <div>
+        <input id="chatInput" type="text">
+        <button id="chatMessageSendBtn">전송</button>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>  <!-- 서버 실행 시 자동으로 실행 됨 -->
+<script src="/js/index.js"></script>
+
+</body>
+</html>
